@@ -13,6 +13,7 @@ const store = configureStore();
 let persistor = persistStore(store);
 
 ReactDOM.render(
+    
     <MuiThemeProvider theme={theme}>
         <Provider store={store}>
             <PersistGate loading={null} persistor={persistor}>
