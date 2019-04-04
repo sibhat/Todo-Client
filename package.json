@@ -1,63 +1,63 @@
 {
-  "name": "todo-client",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@date-io/date-fns": "^1.1.0",
-    "@material-ui/core": "^3.9.0",
-    "@material-ui/icons": "^3.0.2",
-    "@material-ui/styles": "^3.0.0-alpha.8",
-    "animejs": "^3.0.1",
-    "axios": "^0.18.0",
-    "classnames": "^2.2.6",
-    "date-fns": "^2.0.0-alpha.27",
-    "jss-plugin-template": "^10.0.0-alpha.7",
-    "material-ui-pickers": "^2.2.4",
-    "moment": "^2.24.0",
-    "moment-timezone": "^0.5.23",
-    "react": "next",
-    "react-dom": "next",
-    "react-materialize": "^2.6.0",
-    "react-moment": "^0.8.4",
-    "react-redux": "^6.0.0",
-    "react-router-dom": "^4.3.1",
-    "react-scripts": "^2.1.8",
-    "react-spinners": "^0.5.1",
-    "react-spring": "^7.2.8",
-    "react-test-renderer": "^16.7.0",
-    "react-testing-library": "^5.4.4",
-    "react-toastify": "^4.5.2",
-    "react-transition-group": "^1.2.1",
-    "recompose": "^0.30.0",
-    "redux": "^4.0.1",
-    "redux-persist": "^5.10.0",
-    "redux-thunk": "^2.3.0",
-      "prop-types": "latest"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test -u",
-    "eject": "react-scripts eject"
-  },
-  "peerDependencies": {
-    "react": "*",
-    "react-dom": "*"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ],
-  "devDependencies": {
-    "enzyme": "^3.8.0",
-    "enzyme-adapter-react-16": "^1.8.0",
-    "fetch-mock": "^7.3.0",
-    "redux-devtools-extension": "^2.13.7",
-    "redux-mock-store": "^1.5.3"
-  }
+    "name": "todo-client",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "@date-io/date-fns": "^1.1.0",
+        "@material-ui/core": "^3.9.0",
+        "@material-ui/icons": "^3.0.2",
+        "@material-ui/styles": "^3.0.0-alpha.8",
+        "animejs": "^3.0.1",
+        "axios": "^0.18.0",
+        "classnames": "^2.2.6",
+        "date-fns": "^2.0.0-alpha.27",
+        "jss-plugin-template": "^10.0.0-alpha.7",
+        "material-ui-pickers": "^2.2.4",
+        "moment": "^2.24.0",
+        "moment-timezone": "^0.5.23",
+        "react": "next",
+        "react-dom": "next",
+        "react-materialize": "^2.6.0",
+        "react-moment": "^0.8.4",
+        "react-redux": "^6.0.0",
+        "react-router-dom": "^4.3.1",
+        "react-scripts": "^2.1.8",
+        "react-spinners": "^0.5.1",
+        "react-spring": "^7.2.8",
+        "react-test-renderer": "^16.7.0",
+        "react-testing-library": "^5.4.4",
+        "react-toastify": "^4.5.2",
+        "react-transition-group": "^1.2.1",
+        "recompose": "^0.30.0",
+        "redux": "^4.0.1",
+        "redux-persist": "^5.10.0",
+        "redux-thunk": "^2.3.0",
+        "prop-types": "latest"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test -u",
+        "eject": "react-scripts eject"
+    },
+    "peerDependencies": {
+        "react": "*",
+        "react-dom": "*"
+    },
+    "eslintConfig": {
+        "extends": "react-app"
+    },
+    "browserslist": [
+        ">0.2%",
+        "not dead",
+        "not ie <= 11",
+        "not op_mini all"
+    ],
+    "devDependencies": {
+        "enzyme": "^3.8.0",
+        "enzyme-adapter-react-16": "^1.8.0",
+        "fetch-mock": "^7.3.0",
+        "redux-devtools-extension": "^2.13.7",
+        "redux-mock-store": "^1.5.3"
+    }
 }
