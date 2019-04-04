@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { me } from "../../auth/store/action";
+import { me } from "../../auth/store/Action";
 import { connect } from "react-redux";
 import NavPresentational from "../presentational";
 class Nav extends Component {

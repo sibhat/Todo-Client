@@ -8,11 +8,11 @@ import {
 } from "@material-ui/core";
 import MenuIcon from "@material-ui/icons/Menu";
 import ChevronLeftIcon from "@material-ui/icons/ChevronLeft";
-import Search from "../../search/container";
+// import Search from "../../search/container";
 import classNames from "classnames";
 import withStyles from "@material-ui/core/styles/withStyles";
 import styles from "./NavJSS";
-import Auth from "../../auth/container/Auth";
+import Auth from "../../auth/container";
 
 const NavPresentational = ({ classes, open, handleDrawerOpen, handleDrawerClose }) => {
     return (
@@ -36,7 +36,7 @@ const NavPresentational = ({ classes, open, handleDrawerOpen, handleDrawerClose 
                     >
                         <MenuIcon />
                     </IconButton>
-                    <Search classes={classes} />
+                    {/*<Search classes={classes} />*/}
                     <Auth/>
                 </Toolbar>
             </AppBar>

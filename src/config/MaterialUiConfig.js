@@ -1,6 +1,6 @@
 import {createMuiTheme} from "@material-ui/core";
 
-module.exports   = createMuiTheme({
+export default   createMuiTheme({
     palette: {
         background: {
             default: "#ffffff",
@@ -17,5 +17,8 @@ module.exports   = createMuiTheme({
             secondary: "#fff4ff"
         },
         contrastThreshold: 9,
-    }
+    },
+    typography: {
+        useNextVariants: true,
+    },
 });
